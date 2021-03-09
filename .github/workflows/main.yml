@@ -33,5 +33,9 @@ jobs:
       #Install dependencies   
       - name: Install dependencies
         run: python -m pip install --upgrade pip setuptools
-        
+      # Install and test with pytest
+      - name: Test with pytest
+        run: |
+           echo
+           echo here we will test
 
