@@ -41,7 +41,7 @@ jobs:
           ls -a
           echo
           echo is Python installed?
-          python --verion
+          python --version
           echo
           is git installed?
           git --version
